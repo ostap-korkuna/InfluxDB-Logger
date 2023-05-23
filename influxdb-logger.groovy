@@ -100,6 +100,7 @@ import groovy.transform.Field
 // Device type list
 @Field static final Map<String,Map> deviceTypeMap = [
     'accelerometers': [ title: 'Accelerometers', capability: 'accelerationSensor', attributes: ['acceleration'] ],
+    'airQualityMonitors': [ title: 'Air Quality Monitors', capability: 'airQuality', attributes: ['airQualityIndex', 'pm25'] ],
     'alarms': [ title: 'Alarms', capability: 'alarm', attributes: ['alarm'] ],
     'batteries': [ title: 'Batteries', capability: 'battery', attributes: ['battery'] ],
     'beacons': [ title: 'Beacons', capability: 'beacon', attributes: ['presence'] ],
